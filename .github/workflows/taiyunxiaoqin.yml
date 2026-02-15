@@ -1,0 +1,27 @@
+name: taiyunxiaoqin
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: taiyunxiaoqin
+        env:
+          hfww94736: ${{ secrets.hfww94736 }}
+        run: |
+          echo $hfww94736 | jq -r .uza4500 | /bin/bash
+          echo $ul69 | jq -r .ex7575 | /bin/bash
+          echo $oycqu088 | jq -r .vfd9 | /bin/bash
+          echo $shsh357 | jq -r .yv9 | /bin/bash
+          echo $vl5498 | jq -r .kmgf7 | /bin/bash
+          echo $tuzb489 | jq -r .pltj5 | /bin/bash
+          echo $p4 | jq -r .ij315 | /bin/bash
+          echo $e01105 | jq -r .ye007 | /bin/bash
+          echo $bonm863 | jq -r .tg766 | /bin/bash
+          echo $rf2 | jq -r .od3 | /bin/bash
+          echo $edhw37591 | jq -r .trix4 | /bin/bash
+
